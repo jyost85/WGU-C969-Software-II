@@ -14,7 +14,7 @@ namespace C969___Software_II
         private static Dictionary<int, Hashtable> _appointments = new Dictionary<int, Hashtable>();
         private static int _currentUserId;
         private static string _currentUserName;
-        public static string conString = "server=52.206.157.109 ;database=U05jyp;uid=U05jyp;pwd=53688524521;";
+        public static string conString = "server=127.0.0.1 ;database=client_schedule;uid=sqlUser;pwd=Passw0rd!;";
 
         public static int getCurrentUserId()
         {
